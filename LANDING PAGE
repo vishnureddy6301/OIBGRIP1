@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>AN Fly</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="bar">
+                <div class="icon">
+                <h2 class="logo">AN Fly</h2>
+                </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#offer"><button>HOME</button></a></li>
+                    <li><a href="#about"><button>ABOUT</button></a></li>
+                    <li><a href="#services"><button>SERVICES</button></a></li>
+                    <li><a href="#contact"><button>CONTACT</button></a></li>
+                </ul>
+            </div>    
+            </div>
+            <div id="offer" class="offer">
+            <h1 class="off">Book your first flight ticket at 15% off </h1>
+            </div>
+            <div class="coupon">
+            <p>USE COUPON CODE:<br/><h1>FLAT15</h1></p>
+
+            </div>
+            <div class="booking">
+                <h1>Book Now</h1>
+                <input type="text" name="from" placeholder="From"/><br/>
+                <input type="text" name="to" placeholder="To"/><br/>
+                <input type="Date" placeholder="DD/MM/YYYY"/><br/>
+                <button class="btn">Search</button>
+            </div>
+        </div>
+        <div id="about" class="about">
+            <h3>ABOUT</h3>
+            <img src="about.jpg"/>
+            <p> Our mission is to become India’s preferred low-cost airline, delivering the lowest air fares with the highest customer value, to price sensitive customers.We hope to fulfill everyone’s dream of flying!<br/></br><br/>
+                With India's economic and business growth, the percentage of traveling population is burgeoning.More and more Indians are traveling for both business and pleasure and everyone needs to save both time and money.Our vision is to address that and ensure that flying is for everyone.</p>
+        </div>
+        <div class="services" id="services">
+            <h3>Our Services</h3>
+            <h2 class="d">DOMESTIC FLIGHTS</h2>
+            <ul class="list1"><li>Banglore</li><li>Hyderabad</li><li>Chennai</li></ul>
+            <ul class="list2"><li>Kochi</li><li>Delhi</li></ul>
+            <h2 class="i">INTERNATIONAL</h2>
+            <ul class="list3"><li>Bangkok</li><li>Dubai</li></ul>
+        </div>
+        <div id="contact" class="contact">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
