@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Sainath Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="home" class="home">
+            
+            <div class="bar">
+                <div class="logo"><h1><b>SAINATH</b>REDDY.</h1></div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+        </div>
+        <img src="portfolio.png"/>
+        <p>Hello,<br/>I'am<br/><h1 class="name">Sainath Reddy</h1>
+        <button class="hire"><b>Hire Me !</b></button>
+        <ul class="list">
+        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+        </ul>
+        </div>
+        <div id="portfolio" class="portfolio">
+           <h1>EDUCATION</h1>
+           <div class="edu">
+            <div class="box">
+                <h4>2020 - 2024</h4>
+                <h3>Bachelor of Engineering</h3>
+                <p>New Horizon College Of Engineering</p>
+            </div>
+            <div class="box">
+                <h4>2018 - 2020</h4>
+                <h3>Intermediate(12th)</h3>
+                <p>Sri Chaitanya</p>
+            </div>
+            <div class="box">
+                <h4>2018</h4>
+                <h3>10th</h3>
+                <p>Sri Chaitanya</p>
+            </div>
+</div></div>
+        </div>
+        <div id="skills" class="skills">
+            <h1>SKILLS</h1>
+            <ul class="list1"><li><img src="html.png"/></li>
+            <li><img src="css.png"/></li>
+        <li><img src="sql.png"/></li></ul>
+        <ul class="list2"><li><img src="c.png"/></li>
+            <li><img src="java.png"/></li>
+        <li><img src="python.png"/></li></ul>
+        </div>
+        <div id="contact"class="contact">
+            
+            <div class="form">
+                <h3>Contact</h3>
+                <input type="text" placeholder="Name"/>
+                <input type="email" placeholder="Your Mail Id"/>
+                <input type="textbox" placeholder="Your Messaage"/>
+                <button>Send</button>
+            </div>
+
+
+        </div>
+        
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    </body>
+</html>
